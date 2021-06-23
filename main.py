@@ -1,0 +1,1 @@
+exec(s:='import qrcode;qrcode.make("exec(s:=%r)"%s).save(open("main.png", "wb"))')
