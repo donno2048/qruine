@@ -1,6 +1,6 @@
 # qruine
 
-QR quine: scan this QR to recover the Python code used to maKe it
+QR quine: scan this QR to recover the Python code used to make it
 
 ![QR](./QR.png)
 
