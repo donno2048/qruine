@@ -9,9 +9,9 @@ jobs:
       with:
         python-version: '3.x'
     - run: |
-      sudo apt-get install zbar-tools -y
-      python -m pip install --upgrade pip
-      pip install -r requirements.txt
-      python main.py
-      git diff main.png QR.png
-      zbarimg QR.png | git diff -- main.py
+        sudo apt-get install zbar-tools -y
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        python main.py
+        git diff main.png QR.png
+        zbarimg QR.png | git diff -- main.py
